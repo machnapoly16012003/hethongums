@@ -366,7 +366,7 @@ export default function StudentManagement() {
                     type="text"
                     required
                     value={mssv}
-                    onChange={(e) => setMsv(e.target.value)}
+                    onChange={(e) => setMssv(e.target.value)}
                     placeholder="VD: 20224567"
                     className="w-full bg-slate-50 border border-slate-200 focus:border-red-500 focus:bg-white px-3 py-2 rounded-xl text-xs font-semibold text-gray-700 outline-none transition-all"
                   />

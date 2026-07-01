@@ -77,7 +77,7 @@ export default function TeacherDashboard({
       case 'ho-so':
         return <HoSoCaNhan />;
       default:
-        return <TongQuan onNavigate={handleTabNavigation} />;
+        return <TongQuan teacherName={teacherName} onNavigate={handleTabNavigation} />;
     }
   };
 

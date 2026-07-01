@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-import { fileURLToPath, URL } from 'node:url'
-
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import vueDevTools from 'vite-plugin-vue-devtools'
-import ui from '@nuxt/ui/vite'
-
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [vue(), ui({ colorMode: false }), vueDevTools()],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
-    },
-  },
-})
-=======
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
@@ -24,5 +6,3 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
 })
-
->>>>>>> 132d9c6 (machnapoly)
